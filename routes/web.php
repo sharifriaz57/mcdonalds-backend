@@ -14,6 +14,10 @@ use App\Http\Controllers\ProductController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', function () {
+    return view('index');
+});
+
 
     // MAIN MENU API'S
 Route::get('/menu/list', [MenuController::class, 'index']);

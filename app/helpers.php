@@ -3,7 +3,7 @@
 use Illuminate\Support\Carbon;
 
 function getApiLink(){
-    return "http://localhost:8000/";
+    return "https://mcdonalds-cart-backend.herokuapp.com/";
 }
 
 function getProductImgLink(){
