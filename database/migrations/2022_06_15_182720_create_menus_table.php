@@ -24,7 +24,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        DB::table('products')->insert([
+        DB::table('menus')->insert([
             [
                 "id"=> 1,
                 "name"=> "Breakfast",
