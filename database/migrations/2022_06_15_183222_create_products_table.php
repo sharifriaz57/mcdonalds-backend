@@ -391,7 +391,7 @@ return new class extends Migration
             [
                 "menu_id"=> 6,
                 "name"=> "Banana",
-                "description"=> "",
+                "description"=> "A healthy fruit for breakfast",
                 "image"=> "mcd-banana-uae-new_1-4-product-tile-desktop.jpg",
                 "price"=> "4",
                 "vat"=> "5.00",
