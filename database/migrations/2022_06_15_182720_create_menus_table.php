@@ -68,7 +68,7 @@ return new class extends Migration
             [
                 "id"=> 5,
                 "name"=> "Signature Collection",
-                "image"=> "default.jpg",
+                "image"=> "Signature2018-BBQ_Angus_category-panel-left-desktop.jpg",
                 "level"=> 1,
                 "sort_id"=> null,
                 "status"=> 1,
@@ -78,7 +78,7 @@ return new class extends Migration
             [
                 "id"=> 6,
                 "name"=> "Snacks & Sides",
-                "image"=> "default.jpg",
+                "image"=> "Snacks_Sides_category-panel-left-desktop.jpg",
                 "level"=> 1,
                 "sort_id"=> null,
                 "status"=> 1,
@@ -88,7 +88,7 @@ return new class extends Migration
             [
                 "id"=> 7,
                 "name"=> "Desserts",
-                "image"=> "default.jpg",
+                "image"=> "HotFudgeSundae_category-panel-left-desktop.jpg",
                 "level"=> 1,
                 "sort_id"=> null,
                 "status"=> 1,
@@ -98,7 +98,7 @@ return new class extends Migration
             [
                 "id"=> 8,
                 "name"=> "Beverages",
-                "image"=> "default.jpg",
+                "image"=> "Beverages_category-panel-left-desktop.jpg",
                 "level"=> 1,
                 "sort_id"=> null,
                 "status"=> 1,
@@ -118,7 +118,7 @@ return new class extends Migration
             [
                 "id"=> 10,
                 "name"=> "Happy Meals",
-                "image"=> "default.jpg",
+                "image"=> "Happymeal_category-panel-left-desktop.jpg",
                 "level"=> 1,
                 "sort_id"=> null,
                 "status"=> 1,
