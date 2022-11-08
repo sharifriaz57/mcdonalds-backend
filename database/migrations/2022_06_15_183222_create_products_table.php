@@ -20,9 +20,9 @@ return new class extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->string('image')->default('default.jpg');
-            $table->string('price', 4, 2);
-            $table->decimal('vat', 4, 2)->default('5.00');
-            $table->decimal('calories', 5, 2)->nullable();
+            $table->string('price', 6, 2)->nullable();
+            $table->decimal('vat', 6, 2)->default('5.00');
+            $table->decimal('calories', 7, 2)->nullable();
             $table->tinyInteger('status')->default(1)->comment('1=active,0=inactive');
             $table->timestamps();
         });
@@ -143,7 +143,7 @@ return new class extends Migration
                 "image"=> "default.jpg",
                 "price"=> "",
                 "vat"=> "5.00",
-                "calories"=> null,
+                "calories"=> "0.00",
                 "status"=> 1,
                 "created_at"=> null,
                 "updated_at"=> null
@@ -455,7 +455,7 @@ return new class extends Migration
                 "image"=> "mcd-chocolate-ball-donut-uae-new.jpg",
                 "price"=> "6",
                 "vat"=> "5.00",
-                "calories"=> "",
+                "calories"=> "0.00",
                 "status"=> 1,
                 "created_at"=> null,
                 "updated_at"=> null
@@ -467,7 +467,7 @@ return new class extends Migration
                 "image"=> "mcd-choco-oreo-frappe-uae-v1-2022_1-4-product-tile-desktop.jpg",
                 "price"=> "14",
                 "vat"=> "5.00",
-                "calories"=> "",
+                "calories"=> "0.00",
                 "status"=> 1,
                 "created_at"=> null,
                 "updated_at"=> null
@@ -479,7 +479,7 @@ return new class extends Migration
                 "image"=> "mcd-cheese-croissant-uae-new_1-4-product-tile-desktop.jpg",
                 "price"=> "8",
                 "vat"=> "5.00",
-                "calories"=> "301",
+                "calories"=> "301.00",
                 "status"=> 1,
                 "created_at"=> null,
                 "updated_at"=> null
