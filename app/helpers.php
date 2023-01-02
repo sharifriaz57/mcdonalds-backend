@@ -3,7 +3,7 @@
 use Illuminate\Support\Carbon;
 
 function getApiLink(){
-    return "https://mcdonalds-cart-backend.herokuapp.com/";
+    return "https://riaz57.insourcezone.com/";
 }
 
 function getProductImgLink(){
